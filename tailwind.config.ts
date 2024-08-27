@@ -34,5 +34,4 @@ export default {
     },
   },
   plugins: [formsPlugin, headlessuiPlugin],
-  enabled: process.env.NODE_ENV === "production",
 } satisfies Config
