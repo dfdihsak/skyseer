@@ -43,7 +43,7 @@ export function PrimaryFeatures() {
                 <h2 className="text-base font-semibold leading-7 text-indigo-600">Methodology</h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Spectral Signatures</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Skyseer leverages each mineral's unique light reflectance attributes, which are picked up by multispectral satellites 
+                  Skyseer leverages each mineral&apos;s unique light reflectance attributes, which are picked up by multispectral satellites 
                 </p>
 
                 <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
