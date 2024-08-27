@@ -27,9 +27,9 @@ export function Hero() {
         Powerful ore prospecting tool using multispectral satellite image analysis
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Contact Us</Button>
+        <Button href="#contact">Contact Us</Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://youtu.be/KTUaVd-4BxI"
           variant="outline"
         >
           <svg

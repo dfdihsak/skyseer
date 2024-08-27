@@ -7,7 +7,7 @@ import backgroundImage from '@/images/background-faqs.jpg'
 export function CallToAction() {
   return (
     <section
-      id="get-started-today"
+      id="contact"
       className="relative overflow-hidden bg-blue-600 py-32"
     >
       <Image
@@ -24,11 +24,8 @@ export function CallToAction() {
             Get in contact with the team
           </h2>
           <p className="mt-4 text-lg tracking-tight text-black">
-            If you're interested in on our product, we're looking forward to meeting you!
+            Email: skyseerteam@gmail.com
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Contact Us
-          </Button>
         </div>
       </Container>
     </section>

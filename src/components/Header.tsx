@@ -71,9 +71,10 @@ function MobileNavigation() {
         transition
         className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5 data-[closed]:scale-95 data-[closed]:opacity-0 data-[enter]:duration-150 data-[leave]:duration-100 data-[enter]:ease-out data-[leave]:ease-in"
       >
-        <MobileNavLink href="#features">About</MobileNavLink>
-        <MobileNavLink href="#testimonials">Team</MobileNavLink>
-        <MobileNavLink href="#calltoaction">Contact Us</MobileNavLink>
+        <MobileNavLink href="#methodology">Methodology</MobileNavLink>
+        <MobileNavLink href="#product">Product Overview</MobileNavLink>
+        <MobileNavLink href="#team">Team</MobileNavLink>
+        <MobileNavLink href="#contact">Contact Us</MobileNavLink>
         <hr className="m-2 border-slate-300/40" />
         <MobileNavLink href="/login">Sign in</MobileNavLink>
       </PopoverPanel>
@@ -92,9 +93,11 @@ export function Header() {
               <img src={skyseer.src} alt="Skyseer Logo" className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">About</NavLink>
-              <NavLink href="#testimonials">Team</NavLink>
-              <NavLink href="#pricing">Contact Us</NavLink>
+              <NavLink href="#methodology">Methodology</NavLink>
+              <NavLink href="#product">Product Overview</NavLink>
+
+              <NavLink href="#team">Team</NavLink>
+              <NavLink href="#contact">Contact Us</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">

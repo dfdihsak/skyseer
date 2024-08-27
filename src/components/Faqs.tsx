@@ -25,6 +25,10 @@ const people = [
 
 export function Faqs() {
   return (
+    <section
+      id="team"
+      className="bg-slate-50 py-20 sm:py-32"
+    >
     <div className="bg-white py-24 md:py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
         <div className="max-w-2xl xl:col-span-2">
@@ -67,5 +71,6 @@ export function Faqs() {
         </ul>
       </div>
     </div>
+    </section>
   )
 }
