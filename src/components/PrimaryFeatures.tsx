@@ -67,7 +67,6 @@ Image source: Jing, et al. 2014
               </div>
             </div>
             <div className="sm:px-6 lg:px-0">
-              <div className="relative isolate overflow-hidden bg-indigo-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
                 <div
                   aria-hidden="true"
                   className="absolute -inset-y-px w-full origin-bottom-left bg-indigo-100 opacity-20" // Removed ring-1 and ring-inset
@@ -76,9 +75,9 @@ Image source: Jing, et al. 2014
                   <Image
                     alt="Product screenshot"
                     src={spectralImage} // Using the imported image as the src
-                    width={2432}
+                    width={1442}
                     height={1442}
-                    className="-mb-12 w-[57rem] max-w-none rounded-tl-xl bg-gray-800" // Removed ring-1 and ring-white/10
+                    className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" // Removed ring-1 and ring-white/10
                   />
                 </div>
                 <div
@@ -86,7 +85,6 @@ Image source: Jing, et al. 2014
                   className="pointer-events-none absolute inset-0 sm:rounded-3xl" // Removed ring-1, ring-inset, and ring-black/10
                 />
               </div>
-            </div>
           </div>
         </div>
       </div>
